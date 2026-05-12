@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Pedidos a Domicilio — El Buen Sabor</title>
+<title>Pedidos a Domicilio — La Casuela🧉</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 :root{
@@ -182,11 +182,11 @@ body{background:var(--light);font-family:'DM Sans',sans-serif;color:var(--dark);
 <!-- HERO -->
 <div class="hero">
   <div class="hero-badge">🍽️ Pedidos a Domicilio</div>
-  <h1 id="hero-nombre">El Buen Sabor</h1>
+  <h1 id="hero-nombre">La Casuela</h1>
   <p id="hero-tagline">Nuevo Chimbote · Delivery con sabor casero</p>
   <div class="hero-chips">
     <span class="hero-chip">📍 Nuevo Chimbote</span>
-    <span class="hero-chip" id="chip-horario">🕐 11am – 10pm</span>
+    <span class="hero-chip" id="chip-horario">🕐 11am – 4:50pm</span>
     <span class="hero-chip">🛵 Delivery disponible</span>
   </div>
 </div>
@@ -219,7 +219,7 @@ body{background:var(--light);font-family:'DM Sans',sans-serif;color:var(--dark);
     <div class="card-sub">Revisa lo que vas a pedir</div>
     <div id="cart-list"><div class="cart-empty">🛒 Aún no elegiste ningún plato.</div></div>
     <div class="cart-total" id="cart-total-row" style="display:none">
-      <span class="cart-total-lbl">Total estimado</span>
+      <span class="cart-total-lbl">Total </span>
       <span class="cart-total-val" id="cart-total-val">S/ 0.00</span>
     </div>
     <div style="margin-top:14px">
@@ -261,7 +261,7 @@ body{background:var(--light);font-family:'DM Sans',sans-serif;color:var(--dark);
       <div class="pago-opt sel" id="pago-efectivo" onclick="selectPago('efectivo')">
         <span class="p-icon">💵</span>
         <div class="p-label">Efectivo</div>
-        <div class="p-sub">Pago al recibir</div>
+        <div class="p-sub">Pago al recibir su pedido</div>
       </div>
       <div class="pago-opt" id="pago-yape" onclick="selectPago('yape')">
         <span class="p-icon">📱</span>
@@ -272,7 +272,7 @@ body{background:var(--light);font-family:'DM Sans',sans-serif;color:var(--dark);
     <div class="yape-box" id="yape-box">
       📲 <strong>Yapea o Plinea al:</strong><br>
       <strong style="font-size:16px" id="yape-num">999 999 999</strong><br>
-      Titular: <strong id="yape-tit">El Buen Sabor</strong><br>
+      Titular: <strong id="yape-tit">LA CASUELA</strong><br>
       <span style="font-size:11px;opacity:.8">Envía el comprobante por WhatsApp al confirmar tu pedido.</span>
     </div>
 
@@ -371,7 +371,7 @@ const RESTAURANTE = {
 // ============================================================
 const MENU = {
   "🥗 Entradas": [
-    { id:1, emoji:"🧀", name:"Tequeños de queso", price:15,
+    { id:1, JPG:" ", name:"Pure con pollo asado", price:S/20,00 PEN,
       desc:"6 unidades con salsa criolla",
       mods:{
         "Salsa":["Normal","Extra salsa","Sin salsa"],
